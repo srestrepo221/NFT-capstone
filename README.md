@@ -1,10 +1,10 @@
-# A digital minting Dapp, letting you mint multiple NFT assets from your own digital files!
+# A digital minting DApp, letting you mint NFT assets from your own digital files!
 
-This project allows users to mint multiple copies of their NFTS on the Wallaby testnet of FEVM using ERC1155 standards contract.
+This project allows users to mint multiple copies of their NFTS on the goerli testnet using ERC721 standards contract.
 
 Web3Storage is used to store media and metadata to IPFS.
 
-Ethers.js is used to interact with the contract on FEVM.
+Ethers.js is used to interact with the contract. 
 
 Try running some of the following tasks:
 

@@ -7,16 +7,16 @@
 const hre = require("hardhat");
 
 async function main() {
-  const NAME = 'Dapp University'
-  const SYMBOL = 'DAPP'
-  const MAX_SUPPLY = '1000000'
 
-  // Deploy Token
-  const Token = await hre.ethers.getContractFactory('Token')
-  let token = await Token.deploy(NAME, SYMBOL, MAX_SUPPLY)
+  const PRICE = ethers.utils.parseUnits('0.025', 'ether')
 
-  await token.deployed()
-  console.log(`Token deployed to: ${token.address}\n`)
+  // Deploy nft mint contract
+  const Mint = await hre.ethers.getContractFactory('Mint')
+  let mint = await Mint.deploy()
+
+  await mint.deployed()
+  console.log(`mint deployed to: ${mint.address}\n `)
+  
 }
 
 // We recommend this pattern to be able to use async/await everywhere
