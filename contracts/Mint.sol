@@ -8,74 +8,77 @@ import "./Ownable.sol";
 contract Mint is ERC721Enumerable, Ownable {
 	uint256 public cost;
 	uint256 public decimals = 18;
-	uint public mediacount = 0;
+	uint public mediaCount = 0;
+
 	mapping(uint => Media) public media;
 
 	struct Media {
 		uint mediaId;
-		string fileHash;
-		uint fileSize;
-		string fileType;
-		string fileName;
-		string fileDescription;
+		string mediaHash;
+		uint mediaSize;
+		string mediaType;
+		string mediaName;
+		string mediaDescription;
 		uint uploadTime;
-		address payable uploader;
+		address uploader;
 	}
 
 	event MediaUploaded(
 	    uint mediaId,
-	    string fileHash,
-	    uint fileSize,
-	    string fileType,
-	    string fileName, 
-	    string fileDescription,
+	    string mediaHash,
+	    uint mediaSize,
+	    string mediaType,
+	    string mediaName, 
+	    string mediaDescription,
 	    uint uploadTime,
-	    address payable uploader
+	    address uploader
 	);
 
 	constructor(
-		uint256 _cost
-
-	) ERC721(""){
+	string memory _name,
+    string memory _symbol,
+    uint256 _cost
+	) ERC721(_name, _symbol)
+	{
 		cost = _cost; 
 	}
 
 	function uploadMedia(
-		string memory _fileHash,
-		uint _fileSize, 
-		string memory _fileType, 
-		string memory _fileName,
-		string memory _fileDescription
+		string memory _mediaHash,
+		uint _mediaSize, 
+		string memory _mediaType, 
+		string memory _mediaName,
+		string memory _mediaDescription
 	) public {
 		// Make sure the file hash exists
-		require(bytes(_fileHash).length > 0);
+		require(bytes(_mediaHash).length > 0);
 
 		// Make sure file type exists
-    	require(bytes(_fileType).length > 0);
+    	require(bytes(_mediaType).length > 0);
 
     	// Make sure file description exists
-	    require(bytes(_fileDescription).length > 0);
+	    require(bytes(_mediaDescription).length > 0);
 
 	    // Make sure file fileName exists
-	    require(bytes(_fileName).length > 0);
+	    require(bytes(_mediaName).length > 0);
 
 	    // Make sure uploader address exists
 	    require(msg.sender!=address(0));
 
 	    // Make sure file size is more than 0
-	    require(_fileSize>0);
+	    require(_mediaSize>0);
 
 		// Increment media id
 		mediaCount ++;
 
-		// Add media to the contract
-		media[mediaCount] = Media(mediaCount, _fileHash, _fileSize, _fileType, _fileName, _fileDescription, now, msg.sender);
+		// Add media file to the contract
+		media[mediaCount] = Media(mediaCount, _mediaHash, _mediaSize, _mediaType, _mediaName, _mediaDescription, block.timestamp, msg.sender);
 		
 		// Trigger an event
-		emit MediaUploaded(mediaCount, _fileHash, _fileSize, _fileType, _fileName, _fileDescription, now, msg.sender);
+		emit MediaUploaded(mediaCount, _mediaHash, _mediaSize, _mediaType, _mediaName, _mediaDescription, block.timestamp, msg.sender);
 	}
 
-	function setPrice(uint256 _price) public onlyOwner {
-        price = _price;
+	function setCost(uint256 _cost) public onlyOwner {
+        cost = _cost;
     }
 }

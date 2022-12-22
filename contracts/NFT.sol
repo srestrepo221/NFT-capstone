@@ -13,7 +13,6 @@ contract NFT is ERC721Enumerable, Ownable {
     uint256 public maxSupply;
     uint256 public allowMintingOn;
    
-    
 
     event Mint(uint256 amount, address minter);
     event Withdraw(uint256 amount, address owner);
@@ -34,10 +33,6 @@ contract NFT is ERC721Enumerable, Ownable {
         }
 
         function mint(uint256 _mintAmount) public payable {
-            // Only allow minting after specified time
-            require(block.timestamp >= allowMintingOn);
-            // Must mint at least 1 token
-            require(_mintAmount > 0);
             // Require enough payment
             require(msg.value >= cost * _mintAmount);
             
