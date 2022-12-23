@@ -1029,3 +1029,921 @@ src/components/App.js
   Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
 
 webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'ipfs-http-client' in '/Users/santiagorestrepo/code/capstone/src/components'
+WARNING in [eslint] 
+src/components/App.js
+  Line 6:7:    'ipfs' is assigned a value but never used        no-unused-vars
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/App.js 10:19-46
+Module not found: Error: Can't resolve 'ipfs-http-client' in '/Users/santiagorestrepo/code/capstone/src/components'
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 9:1:   Import in body of module; reorder to top  import/first
+  Line 10:1:  Import in body of module; reorder to top  import/first
+  Line 13:1:  Import in body of module; reorder to top  import/first
+  Line 16:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'ipfs-http-client' in '/Users/santiagorestrepo/code/capstone/src/components'
+WARNING in [eslint] 
+src/components/App.js
+  Line 5:7:    'ipfsClient' is assigned a value but never used  no-unused-vars
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/App.js 10:19-46
+Module not found: Error: Can't resolve 'ipfs-http-client' in '/Users/santiagorestrepo/code/capstone/src/components'
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 9:1:   Import in body of module; reorder to top  import/first
+  Line 10:1:  Import in body of module; reorder to top  import/first
+  Line 13:1:  Import in body of module; reorder to top  import/first
+  Line 16:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/App.js
+Syntax error: Unterminated JSX contents. (85:16) (85:16)
+ERROR in ./src/components/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/App.js: Unterminated JSX contents. (85:16)
+
+  83 |               </div>
+  84 |               <p>&nbsp;</p>
+> 85 |     </Container>
+     |                 ^
+  86 |   )
+  87 | }
+  88 |
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxReadToken (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:7766:20)
+    at FlowParserMixin.getTokenFromCode (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8187:19)
+    at FlowParserMixin.getTokenFromCode (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:6309:20)
+    at FlowParserMixin.nextToken (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:2386:10)
+    at FlowParserMixin.next (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:2290:10)
+    at FlowParserMixin.eat (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:2295:12)
+    at FlowParserMixin.expect (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:4128:10)
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 85:16:  Parsing error: Unterminated JSX contents. (85:16)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/App.js
+Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (62:4) (62:4)
+ERROR in ./src/components/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/App.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (62:4)
+
+  60 |       <h1 className='my-4 text-center'>React Hardhat Template</h1>
+  61 |     </Container>
+> 62 |     <div className="content">
+     |     ^
+  63 |               <p>&nbsp;</p>
+  64 |               <div className="card mb-3 mx-auto bg-dark" style={{ maxWidth: '512px' }}>
+  65 |                 <h2 className="text-white text-monospace bg-dark"><b><ins>Share File</ins></b></h2>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8143:18)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+    at FlowParserMixin.parseUpdate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12764:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12734:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12525:61)
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 62:4:  Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (62:4)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 19:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 34:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (36:10) (36:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (36:10)
+
+  34 |               </div>
+  35 |               <p>&nbsp;</p> 
+> 36 |           </main>
+     |           ^
+  37 |         </div>
+  38 |       </div>
+  39 |     );
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 36:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (36:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (36:10) (36:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (36:10)
+
+  34 |               </div>
+  35 |               <p>&nbsp;</p> 
+> 36 |           </main>
+     |           ^
+  37 |           </div>
+  38 |         </div>
+  39 |       </div>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 36:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (36:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (36:10) (36:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (36:10)
+
+  34 |               </div>
+  35 |               <p>&nbsp;</p> 
+> 36 |           </main>
+     |           ^
+  37 |         </div>
+  38 |       </div>
+  39 |     );
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 36:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (36:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |         </div>
+  36 |       </div>
+  37 |     );
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |         </div>
+  36 |       </div>
+  37 |     );
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:12) (34:12)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:12)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           //</main>
+     |             ^
+  35 |         </div>
+  36 |       </div>
+  37 |     );
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:12:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |         </div>
+  36 |       </div>
+  37 |     );
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |           </div>
+  36 |         </div>
+  37 |       </div>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |         </div>
+  36 |       </div>
+  37 |     </div>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |         </div>
+  36 |       </div>
+  37 |     </div>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:12) (34:12)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:12)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           //</main>
+     |             ^
+  35 |         </div>
+  36 |       </div>
+  37 |     </div>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:12:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |         </div>
+  36 |       </div>
+  37 |     </div>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Main.js
+Syntax error: Expected corresponding JSX closing tag for <div>. (34:10) (34:10)
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/Main.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Main.js: Expected corresponding JSX closing tag for <div>. (34:10)
+
+  32 |               </div>
+  33 |               <p>&nbsp;</p> 
+> 34 |           </main>
+     |           ^
+  35 |         </div>
+  36 |       </div>
+  37 |     </div>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8124:16)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8086:32)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+
+ERROR in [eslint] 
+src/components/Main.js
+  Line 34:10:  Parsing error: Expected corresponding JSX closing tag for <div>. (34:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 4:8:    'Main' is defined but never used                 no-unused-vars
+  Line 11:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 11:8:   'Main' is defined but never used                 no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 11:8:   'Main' is defined but never used                 no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used                                     no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used                           no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used                               no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used                               no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used                            no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used                         no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used                            no-unused-vars
+  Line 61:67:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used                                     no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used                           no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used                               no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used                               no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used                            no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used                         no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used                            no-unused-vars
+  Line 61:67:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 11:8:   'Main' is defined but never used                 no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'Loading' is defined but never used              no-unused-vars
+  Line 11:8:   'Main' is defined but never used                 no-unused-vars
+  Line 20:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 24:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 25:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 35:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning

@@ -2,9 +2,13 @@ import { useEffect, useState } from 'react'
 import { Container } from 'react-bootstrap'
 import { ethers } from 'ethers'
 
+//const ipfsClient = require('ipfs-http-client')
+//const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' }) // leaving out the arguments will default to these values
+
 // Components
 import Navigation from './Navigation';
 import Loading from './Loading';
+import Main from './Main';
 
 // ABIs
 import MINT_ABI from '../abis/Mint.json'
