@@ -59,6 +59,7 @@ function App() {
     <Container>
       <Navigation account={account} />
       <h1 className='my-4 text-center'>React Hardhat Template</h1>
+      <Main/>
     </Container>
   )
 }
