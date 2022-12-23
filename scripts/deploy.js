@@ -10,9 +10,9 @@ async function main() {
 
   const PRICE = ethers.utils.parseUnits('0.025', 'ether')
 
-  // Deploy nft mint contract
+  // Deploy mint contract
   const Mint = await hre.ethers.getContractFactory('Mint')
-  let mint = await Mint.deploy()
+  let mint = await Mint.deploy('GreenBros', 'GB', PRICE)
 
   await mint.deployed()
   console.log(`mint deployed to: ${mint.address}\n `)

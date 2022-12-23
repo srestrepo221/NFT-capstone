@@ -1,0 +1,1031 @@
+Starting the development server...
+
+Compiled successfully!
+
+You can now view nft-minting in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.106:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Navigation.js
+Syntax error: Unexpected token, expected "," (18:28) (18:28)
+ERROR in ./src/components/Navigation.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Navigation.js: Unexpected token, expected "," (18:28)
+
+  16 |       <Navbar.Collapse className="justify-content-end">
+  17 |         <Navbar.Text>
+> 18 |         { account ? {account.slice(0,5) + '...' + account.slice(38,42)} : "" }
+     |                             ^
+  19 |           
+  20 |         
+  21 |         </Navbar.Text>
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.unexpected (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3491:16)
+    at FlowParserMixin.expect (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:4128:28)
+    at FlowParserMixin.parseObjectLike (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:13730:14)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:13135:23)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8174:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+    at FlowParserMixin.parseUpdate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12764:21)
+
+ERROR in [eslint] 
+src/components/Navigation.js
+  Line 18:28:  Parsing error: Unexpected token, expected "," (18:28)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Navigation.js
+  Line 18:20:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 18:89:  Anchors must have content and the content must be accessible by a screen reader                                                                                                                                                                                                                                                                                    jsx-a11y/anchor-has-content
+  Line 18:89:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Navigation.js
+  Line 18:20:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 18:89:  Anchors must have content and the content must be accessible by a screen reader                                                                                                                                                                                                                                                                                    jsx-a11y/anchor-has-content
+  Line 18:89:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Navigation.js
+Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (21:10) (21:10)
+ERROR in ./src/components/Navigation.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/santiagorestrepo/code/capstone/src/components/Navigation.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (21:10)
+
+  19 |         {account ? (
+  20 |           <p>{account.slice(0,5) + '...' + account.slice(38,42)}</p>
+> 21 |           <Blockies
+     |           ^
+  22 |               seed={account}
+  23 |               size={10}
+  24 |               scale={3}
+    at instantiate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:366:12)
+    at FlowParserMixin.raise (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:3453:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8143:18)
+    at FlowParserMixin.jsxParseElement (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8155:17)
+    at FlowParserMixin.parseExprAtom (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:8169:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12785:23)
+    at FlowParserMixin.parseUpdate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12764:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12734:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/santiagorestrepo/code/capstone/node_modules/@babel/parser/lib/index.js:12525:61)
+
+ERROR in [eslint] 
+src/components/Navigation.js
+  Line 21:10:  Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (21:10)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Navigation.js
+  Line 2:8:  'Blockies' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Navigation.js
+  Line 2:8:  'Blockies' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Navigation.js
+  Line 20:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:11:  Anchors must have content and the content must be accessible by a screen reader                                                                                                                                                                                                                                                                                    jsx-a11y/anchor-has-content
+  Line 33:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Navigation.js
+  Line 20:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:11:  Anchors must have content and the content must be accessible by a screen reader                                                                                                                                                                                                                                                                                    jsx-a11y/anchor-has-content
+  Line 33:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Navigation.js
+  Line 20:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:11:  Anchors must have content and the content must be accessible by a screen reader                                                                                                                                                                                                                                                                                    jsx-a11y/anchor-has-content
+  Line 33:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Navigation.js
+  Line 20:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:11:  Anchors must have content and the content must be accessible by a screen reader                                                                                                                                                                                                                                                                                    jsx-a11y/anchor-has-content
+  Line 33:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'MINT_ABI' is defined but never used           no-unused-vars
+  Line 13:8:   'config' is defined but never used             no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 19:10:  'balance' is assigned a value but never used   no-unused-vars
+  Line 28:13:  'chainId' is assigned a value but never used   no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'MINT_ABI' is defined but never used           no-unused-vars
+  Line 13:8:   'config' is defined but never used             no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 28:13:  'chainId' is assigned a value but never used   no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'MINT_ABI' is defined but never used           no-unused-vars
+  Line 13:8:   'config' is defined but never used             no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 28:13:  'chainId' is assigned a value but never used   no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 10:8:   'MINT_ABI' is defined but never used           no-unused-vars
+  Line 13:8:   'config' is defined but never used             no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 28:13:  'chainId' is assigned a value but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 28:13:  'chainId' is assigned a value but never used   no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used            no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 19:10:  'balance' is assigned a value but never used   no-unused-vars
+  Line 28:13:  'chainId' is assigned a value but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used            no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 19:10:  'balance' is assigned a value but never used   no-unused-vars
+  Line 28:13:  'chainId' is assigned a value but never used   no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used            no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 17:10:  'nft' is assigned a value but never used       no-unused-vars
+  Line 17:15:  'setNFT' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used      no-unused-vars
+  Line 20:16:  'setCost' is assigned a value but never used   no-unused-vars
+  Line 33:11:  'mint' is assigned a value but never used      no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 33:38:  'config' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used            no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 17:10:  'nft' is assigned a value but never used       no-unused-vars
+  Line 17:15:  'setNFT' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used      no-unused-vars
+  Line 20:16:  'setCost' is assigned a value but never used   no-unused-vars
+  Line 33:11:  'mint' is assigned a value but never used      no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 33:38:  'config' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used            no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 17:10:  'nft' is assigned a value but never used       no-unused-vars
+  Line 17:15:  'setNFT' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used      no-unused-vars
+  Line 20:16:  'setCost' is assigned a value but never used   no-unused-vars
+  Line 33:11:  'mint' is assigned a value but never used      no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used            no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used  no-unused-vars
+  Line 17:10:  'nft' is assigned a value but never used       no-unused-vars
+  Line 17:15:  'setNFT' is assigned a value but never used    no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used      no-unused-vars
+  Line 20:16:  'setCost' is assigned a value but never used   no-unused-vars
+  Line 33:11:  'mint' is assigned a value but never used      no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'nft' is assigned a value but never used         no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "...\"function\"\n    }\n  ]\n"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'nft' is assigned a value but never used         no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 17:16:  'setMint' is assigned a value but never used     no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 35:5:  'setNFT' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/App.js
+  Line 34:66:  'MINT_ABI' is not defined  no-undef
+  Line 35:5:   'setNFT' is not defined    no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 17:16:  'setMint' is assigned a value but never used     no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 34:66:  'MINT_ABI' is not defined  no-undef
+  Line 35:5:   'setNFT' is not defined    no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/App.js
+  Line 34:66:  'MINT_ABI' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 34:66:  'MINT_ABI' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/App.js
+  Line 34:38:  'config' is not defined    no-undef
+  Line 34:66:  'MINT_ABI' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/App.js
+  Line 34:38:  'config' is not defined    no-undef
+  Line 34:66:  'MINT_ABI' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used                                                                                    no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used                                                                          no-unused-vars
+  Line 17:16:  'setMint' is assigned a value but never used                                                                           no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used                                                                              no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used                                                                           no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used                                                                        no-unused-vars
+  Line 54:6:   React Hook useEffect has a missing dependency: 'loadBlockchainData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used                                                                                    no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used                                                                          no-unused-vars
+  Line 17:16:  'setMint' is assigned a value but never used                                                                           no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used                                                                              no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used                                                                           no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used                                                                        no-unused-vars
+  Line 54:6:   React Hook useEffect has a missing dependency: 'loadBlockchainData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used                                                                                    no-unused-vars
+  Line 10:8:   'MINT_ABI' is defined but never used                                                                                   no-unused-vars
+  Line 13:8:   'config' is defined but never used                                                                                     no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used                                                                          no-unused-vars
+  Line 17:16:  'setMint' is assigned a value but never used                                                                           no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used                                                                              no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used                                                                           no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used                                                                        no-unused-vars
+  Line 54:6:   React Hook useEffect has a missing dependency: 'loadBlockchainData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used                                                                                    no-unused-vars
+  Line 10:8:   'MINT_ABI' is defined but never used                                                                                   no-unused-vars
+  Line 13:8:   'config' is defined but never used                                                                                     no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used                                                                          no-unused-vars
+  Line 17:16:  'setMint' is assigned a value but never used                                                                           no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used                                                                              no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used                                                                           no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used                                                                        no-unused-vars
+  Line 54:6:   React Hook useEffect has a missing dependency: 'loadBlockchainData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './abis/Mint.json' in '/Users/santiagorestrepo/code/capstone/src/components'
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/components/App.js 13:0-40
+Module not found: Error: Can't resolve './abis/Mint.json' in '/Users/santiagorestrepo/code/capstone/src/components'
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+ERROR in ./src/abis/Mint.json
+Module parse failed: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+JSONParseError: Unexpected end of JSON input while parsing near "... \"function\"\n    }\n  ]"
+    at JsonParser.parse (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/json/JsonParser.js:43:7)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:1087:26
+    at processResult (/Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:800:11)
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:860:5
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:407:3
+    at iterateNormalLoaders (/Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:233:10)
+    at /Users/santiagorestrepo/code/capstone/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+    at /Users/santiagorestrepo/code/capstone/node_modules/webpack/lib/NormalModule.js:834:15
+    at Array.eval (eval at create (/Users/santiagorestrepo/code/capstone/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at runCallbacks (/Users/santiagorestrepo/code/capstone/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/App.js
+  Line 7:8:    'Loading' is defined but never used              no-unused-vars
+  Line 16:10:  'provider' is assigned a value but never used    no-unused-vars
+  Line 17:10:  'mint' is assigned a value but never used        no-unused-vars
+  Line 20:10:  'cost' is assigned a value but never used        no-unused-vars
+  Line 21:10:  'balance' is assigned a value but never used     no-unused-vars
+  Line 21:19:  'setBalance' is assigned a value but never used  no-unused-vars
+  Line 31:13:  'chainId' is assigned a value but never used     no-unused-vars
+
+webpack compiled with 1 warning

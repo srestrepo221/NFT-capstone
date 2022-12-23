@@ -1,8 +1,4 @@
-{
-  "_format": "hh-sol-artifact-1",
-  "contractName": "Mint",
-  "sourceName": "contracts/Mint.sol",
-  "abi": [
+[
     {
       "inputs": [
         {
